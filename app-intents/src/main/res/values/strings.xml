@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Rdio Intent Example</string>
+    <string name="toggle">Toggle</string>
+    <string name="play">Play</string>
+    <string name="pause">Pause</string>
+    <string name="skipforward">Forward</string>
+    <string name="skipbackward">Backward</string>
+
+</resources>

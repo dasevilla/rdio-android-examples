@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Rdio Seek Example</string>
+    <string name="seek">Seek</string>
+    <string name="play">Play</string>
+    <string name="pause">Pause</string>
+    <string name="prepare_player">Prepare</string>
+
+</resources>

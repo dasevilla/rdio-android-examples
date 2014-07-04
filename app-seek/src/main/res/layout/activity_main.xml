@@ -1,0 +1,67 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.rdio.android.example.seek.MainActivity">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/prepare_player"
+        android:id="@+id/prepare_btn"
+        android:layout_above="@+id/play_btn"
+        android:layout_alignLeft="@+id/play_btn"
+        android:layout_alignStart="@+id/play_btn"
+        android:layout_alignRight="@+id/play_btn"
+        android:layout_alignEnd="@+id/play_btn"
+        android:enabled="false" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/play"
+        android:id="@+id/play_btn"
+        android:width="200dp"
+        android:layout_above="@+id/pause_btn"
+        android:layout_centerHorizontal="true"
+        android:enabled="false" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/pause"
+        android:id="@+id/pause_btn"
+        android:layout_above="@+id/seek_btn"
+        android:layout_alignLeft="@+id/seek_btn"
+        android:layout_alignStart="@+id/seek_btn"
+        android:width="200dp"
+        android:enabled="false" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/seek"
+        android:id="@+id/seek_btn"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:width="200dp"
+        android:enabled="false" />
+
+    <SeekBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/seekBar"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="78dp"
+        android:indeterminate="false"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:clickable="false" />
+
+</RelativeLayout>

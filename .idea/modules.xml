@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/app-create-playlist/app-create-playlist.iml" filepath="$PROJECT_DIR$/app-create-playlist/app-create-playlist.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app-intents/app-intents.iml" filepath="$PROJECT_DIR$/app-intents/app-intents.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app-launch-rdio/app-launch-rdio.iml" filepath="$PROJECT_DIR$/app-launch-rdio/app-launch-rdio.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app-seek/app-seek.iml" filepath="$PROJECT_DIR$/app-seek/app-seek.iml" />
+      <module fileurl="file://$PROJECT_DIR$/rdio-android-examples.iml" filepath="$PROJECT_DIR$/rdio-android-examples.iml" />
+    </modules>
+  </component>
+</project>
+

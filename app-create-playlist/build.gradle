@@ -1,0 +1,26 @@
+apply plugin: 'com.android.application'
+
+repositories {
+    mavenCentral()
+}
+
+android {
+    compileSdkVersion rootProject.ext.compileSdkVersion
+    buildToolsVersion rootProject.ext.buildToolsVersion
+
+    defaultConfig {
+        minSdkVersion rootProject.ext.minSdkVersion
+        targetSdkVersion rootProject.ext.targetSdkVersion
+    }
+
+    buildTypes {
+        release {
+            runProguard false
+            proguardFile getDefaultProguardFile('proguard-android.txt')
+        }
+    }
+}
+
+dependencies {
+    compile rootProject.ext.rdioSdkDependencies
+}
